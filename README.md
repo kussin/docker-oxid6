@@ -8,12 +8,12 @@ This (linux/osx) setup bootstraps an dockerized developer environment for [OXID 
 - MySQL 5.7 container ([Dockerfile](https://github.com/docker-library/mysql/blob/883703dfb30d9c197e0059a669c4bb64d55f6e0d/5.7/Dockerfile))
 - MailHog container ([Dockerfile](https://github.com/mailhog/MailHog/blob/master/Dockerfile))
 - phpMyAdmin container ([Dockerfile](https://hub.docker.com/r/phpmyadmin/phpmyadmin/~/dockerfile/))
-- OXID eShop ([latest 6.3.x](https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-6.3/composer.json))
+- OXID eShop ([latest 6.2.x](https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-6.2/composer.json))
 - OXID demo data
 
 ## Quickstart
 1. Install [docker engine](https://docs.docker.com/engine/installation/)
-2. Add `127.0.0.1 oxid6.localhost` to your etc/hosts file (if needed eg. windows)
+2. Add `127.0.0.1 warehouse-one.local` to your etc/hosts file (if needed eg. windows)
 3. Fire up container
 ```bash
 # clone repository:
@@ -28,10 +28,10 @@ docker-compose up
 
 ### Installation
 - Creating oxid project takes round about 5 minutes. It´s finished when docker log shows `OXID bootstrap completed!`).
-- Shop: `http://oxid6.localhost` (or `https://oxid6.localhost` with ssl-cert-snakeoil)
-- Shop admin `http://oxid6.localhost/admin/`, credentials: `admin / admin`
-- MailHog: `http://oxid6.localhost:8025`
-- phpMyAdmin: `http://oxid6.localhost:8080`
+- Shop: `http://warehouse-one.local` (or `https://warehouse-one.local` with ssl-cert-snakeoil)
+- Shop admin `http://warehouse-one.local/admin/`, credentials: `admin / admin`
+- MailHog: `http://warehouse-one.local:8025`
+- phpMyAdmin: `http://warehouse-one.local:8080`
 
 ### Container
 - If you would like to run container in background, use `docker-compose up -d` for starting container and `docker logs -f oxid6_apache` for log information (eg. composer information).
