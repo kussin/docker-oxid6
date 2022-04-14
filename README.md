@@ -11,6 +11,10 @@ This (linux/osx) setup bootstraps an dockerized developer environment for [OXID 
 - OXID eShop ([latest 6.4.x](https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-6.4/composer.json))
 - OXID demo data
 
+## User Guide
+
+[User Guide](USER_GUIDE.md)
+
 ## Quickstart
 1. Install [docker engine](https://docs.docker.com/engine/installation/)
 2. Add `127.0.0.1 oxid6.localhost` to your etc/hosts file (if needed eg. windows)
