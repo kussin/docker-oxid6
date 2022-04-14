@@ -1,4 +1,4 @@
-# Docker OXID eShop 6
+# Kussin | Docker OXID eShop 6
 
 This (linux/osx) setup bootstraps an dockerized developer environment for [OXID eShop 6](https://github.com/OXID-eSales/oxideshop_ce).
 
@@ -10,6 +10,10 @@ This (linux/osx) setup bootstraps an dockerized developer environment for [OXID 
 - phpMyAdmin container ([Dockerfile](https://hub.docker.com/r/phpmyadmin/phpmyadmin/~/dockerfile/))
 - OXID eShop ([latest 6.2.x](https://github.com/OXID-eSales/oxideshop_metapackage_ce/blob/b-6.2/composer.json))
 - OXID demo data
+
+## User Guide
+
+[User Guide](USER_GUIDE.md)
 
 ## Quickstart
 1. Install [docker engine](https://docs.docker.com/engine/installation/)
@@ -24,6 +28,7 @@ docker-compose build
 # fire up container
 docker-compose up
 ```
+
 ## Configuration
 
 ### Installation
@@ -48,24 +53,24 @@ docker-compose up
 
 ## Support
 
-[https://forum.oxid-esales.com/t/docker-container-fur-oxid-6/92282](https://forum.oxid-esales.com/t/docker-container-fur-oxid-6/92282)
+Kussin | eCommerce und Online-Marketing GmbH<br>
+Fahltskamp 3<br>
+25462 Rellingen<br>
+Germany
+
+Fon: +49 (4101) 85868 - 0<br>
+Email: info@kussin.de<br>
+
+[OXID Forum: Docker Container für OXID 6](https://forum.oxid-esales.com/t/docker-container-fur-oxid-6/92282)
 
 ## License
 
-    This program is free software: you can redistribute it and/or modify
-    it under the terms of the GNU General Public License as published by
-    the Free Software Foundation, either version 3 of the License, or
-    (at your option) any later version.
+[End-User Software License Agreement](LICENSE.md)
 
-    This program is distributed in the hope that it will be useful,
-    but WITHOUT ANY WARRANTY; without even the implied warranty of
-    MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
-    GNU General Public License for more details.
+## Credits
 
-    You should have received a copy of the GNU General Public License
-    along with this program.  If not, see <http://www.gnu.org/licenses/>.
-    
+- [ProudCommerce](https://www.proudcommerce.com/)
 
 ## Copyright
 
-	ProudCommerce | 2020 | proudcommerce.com
+(c) 2006-2022 Kussin | eCommerce und Online-Marketing GmbH
